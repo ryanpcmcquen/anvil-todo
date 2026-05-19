@@ -1,0 +1,16 @@
+packages:
+  - '.'
+allowBuilds:
+  esbuild: true
+  "@anvil-di/anvil-cli-darwin-arm64": true
+  "@anvil-di/anvil-cli-darwin-x64": true
+  "@anvil-di/anvil-cli-linux-arm64": true
+  "@anvil-di/anvil-cli-linux-x64": true
+  "@anvil-di/bellows-cli-darwin-arm64": true
+  "@anvil-di/bellows-cli-darwin-x64": true
+  "@anvil-di/bellows-cli-linux-arm64": true
+  "@anvil-di/bellows-cli-linux-x64": true
+  "@anvil-di/bellows-openapi-cli-darwin-arm64": true
+  "@anvil-di/bellows-openapi-cli-darwin-x64": true
+  "@anvil-di/bellows-openapi-cli-linux-arm64": true
+  "@anvil-di/bellows-openapi-cli-linux-x64": true
