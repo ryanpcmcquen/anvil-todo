@@ -28,6 +28,7 @@ The generated `*.anvil.ts` files are plain TypeScript — no magic at runtime. A
 
 ```sh
 pnpm install
+pnpm generate:client
 ```
 
 ### Development

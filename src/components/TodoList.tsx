@@ -10,7 +10,9 @@ export function TodoList({ filter }: Props) {
   const completed = filter === "all" ? undefined : filter === "completed" ? "true" : "false";
 
   const { data, isLoading, isError } = useQuery(
-    todoControllerGetListOptions(completed !== undefined ? { query: { completed } } : undefined),
+    todoControllerGetListOptions(
+      completed !== undefined ? { query: { query: { completed } } } : undefined,
+    ),
   );
 
   if (isLoading) return <p style={{ color: "#888" }}>Loading…</p>;
